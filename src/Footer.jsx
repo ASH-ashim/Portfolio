@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 import './Footer.css';
-import { scrollToSection } from './utils/smoothScroll';
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
