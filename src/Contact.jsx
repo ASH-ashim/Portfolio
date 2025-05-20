@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FiMail, FiSend } from 'react-icons/fi';
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaXTwitter, FaInstagram } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -76,7 +76,7 @@ const Contact = () => {
                   <FaLinkedin className="social-icon" />
                 </a>
                 <a href="https://x.com/AshimBHATT15146?t=agj2k6MLt8HLX-UkGx8H0Q&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                  <FaTwitter className="social-icon" />
+                  <FaXTwitter className="social-icon" />
                 </a>
                 <a href="https://github.com/ASH-ashim" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <FaGithub className="social-icon" />
